@@ -1,0 +1,73 @@
+/* Styling untuk tabel */
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #4CAF50; /* Hijau */
+    color: white;
+}
+td {
+    background-color: #B3E5FC; /* Biru */
+}
+
+/* Styling untuk gambar */
+img {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    height: auto;
+}
+
+/* Styling untuk form */
+form {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+input[type="text"], input[type="email"], input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Styling untuk tombol Hapus dan Edit */
+button {
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+button.edit {
+    background-color: #4CAF50;
+    color: white;
+}
+button.delete {
+    background-color: #f44336;
+    color: white;
+}
+
+/* Styling untuk latar belakang yang sesuai dengan gambar komputer */
+body {
+    background: linear-gradient(135deg, #f0f4f8, #e8eaf6);  /* Gradasi cerah */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Untuk form agar lebih kontras dengan latar belakang */
+form {
+    background-color: rgba(255, 255, 255, 0.9); /* Memberikan efek transparan */
+}
